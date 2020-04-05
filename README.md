@@ -1,2 +1,2 @@
-# myTunes
- Landing Page for music app
+# spoTunes
+ Landing Page for music and video streaming app
