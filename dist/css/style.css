@@ -110,6 +110,11 @@ footer .footer-cols ul li:first-child {
   margin-bottom: 1rem;
 }
 
+footer .footer-bottom {
+  background: #333;
+  padding: 1rem;
+}
+
 /* Utility Classes */
 .container {
   max-width: 1180px;
@@ -281,4 +286,20 @@ nav a#openup {
 
 .cf {
   zoom: 1;
+}
+
+@media screen and (max-width: 780px) {
+  .gift-cards {
+    grid-template-columns: 1fr;
+  }
+
+  footer .footer-cols {
+    display: none;
+  }
+}
+
+@media screen and (max-height: 780px) {
+  #showcase p.lead {
+    display: none;
+  }
 }
